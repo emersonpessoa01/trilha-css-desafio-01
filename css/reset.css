@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 html {
-  
+  /* font-size: 62.5%; */
   scroll-padding-top: 4rem;
   scroll-behavior: smooth;
 }
@@ -45,7 +45,7 @@ html::-webkit-scrollbar-thumb:hover {
 
 header,
 section {
-  margin: 100px auto;
+  margin: 50px auto;
   padding: 2rem 7%;
 }
 
@@ -58,12 +58,14 @@ h2 {
   font-size: 2rem;
   font-weight: 900;
   color: var(--blue);
-  letter-spacing: 0.25rem;
+  /* letter-spacing: 0.25rem; */
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
 
 p {
+  font-size:1rem;
   margin-bottom: 1.5rem;
   color: white;
+  line-height: 1.2em;
 }

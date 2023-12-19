@@ -8,6 +8,14 @@
   width: 800px;
 }
 
+#professional-challenges h2{
+  font-weight: 700;
+}
+#professional-challenges p{
+  font-weight: 400 !important;
+  line-height: 1.2em;
+}
+
 #professional-challenges img {
   margin: 2rem 0;
   width:100%;

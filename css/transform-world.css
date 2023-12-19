@@ -17,17 +17,3 @@
   text-transform: lowercase;
   text-shadow: 3px 2px var(--blue);
 }
-@media (max-width: 768px) {
-  html {
-    font-size: 100%;
-  }
-  #transform-world {
-    padding: 12.5rem 7%;
-    min-height:100vh;
-  }
-  #transform-world p {
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-}

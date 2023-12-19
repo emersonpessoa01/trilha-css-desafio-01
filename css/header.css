@@ -4,7 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 600px;
-  padding-top: 60px;
+  padding: 60px 0;
   border-bottom: 1px solid var(--border-bottom);
 }
 
@@ -48,10 +48,13 @@
 
 .banner p {
   display: block;
-  max-width: 520px;
+  padding:12px;
   font-size: 1.25rem;
+  font-weight: 400;
   margin: 1rem 0 1.5rem;
   text-align: justify;
+  line-height: 1.2em;
+  
   /* letter-spacing: 0.5px; */
 }
 

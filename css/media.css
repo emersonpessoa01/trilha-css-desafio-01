@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+  #transform-world {
+    padding: 12.5rem 7%;
+    min-height: 100vh;
+  }
+  #transform-world p {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+  .banner p {
+    font-size: 1.125rem;
+    text-align: initial;
+  }
+  .banner .banner-content button {
+    font-size: 0.9rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  .banner {
+    margin: 0;
+  }
+  p {
+    text-align: initial;
+  }
+  #course-content .modules-list .module {
+    font-size: 0.875rem;
+  }
+  #transform-world p {
+    font-size: 2.25rem !important;
+    text-align: initial;
+  }
+  #professional-challenges h2 {
+    text-align: initial !important;
+  }
+}
