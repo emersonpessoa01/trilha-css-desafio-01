@@ -6,7 +6,8 @@
   --blue: #33a8db;
   --blue-dark: #1472b7;
   --button: #252525;
-  --green-footer:#32a8db33;
+  --green-footer: #32a8db33;
+  --white: #fff;
 }
 
 * {
@@ -35,7 +36,6 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-thumb:hover {
   background: var(--blue-dark);
   cursor: pointer !important;
-
 }
 
 ::selection {
@@ -64,7 +64,7 @@ h2 {
 }
 
 p {
-  font-size:1rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
   color: white;
   line-height: 1.2em;

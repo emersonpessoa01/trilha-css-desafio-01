@@ -1,0 +1,39 @@
+.scroll {
+  padding: 0;
+}
+.scroll-top {
+  outline: none;
+  border: 0;
+  background: var(--blue);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 18px;
+  bottom: 800px;
+  z-index: 1000;
+  box-shadow: 0 1px 6px 2px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in;
+}
+
+.scroll-top.active {
+  bottom: 18px;
+  opacity: 1;
+  visibility: visible;
+  color: var(--white);
+  font-size: 1.5rem;
+}
+.scroll-top:hover {
+  background: var(--blue-dark);
+  color: var(--white);
+}
+.scroll-top:hover .fa-chevron-up {
+  color: var(--white);
+}
