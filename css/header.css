@@ -18,7 +18,9 @@
   color: #fff;
   text-align: center;
 }
-
+.banner .banner-content a button {
+  cursor: pointer;
+}
 .banner .logo {
   width: 16.25rem;
   height: 16.25rem;
