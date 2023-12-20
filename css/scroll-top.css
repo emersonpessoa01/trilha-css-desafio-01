@@ -24,7 +24,7 @@
 }
 
 .scroll-top.active {
-  bottom: 15px;
+  bottom: 12px;
   opacity: 1;
   visibility: visible;
   color: var(--white);
