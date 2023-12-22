@@ -48,6 +48,9 @@
   .banner .banner-content button {
     padding: 0.75rem;
   }
+  #transform-world{
+    background-position-x: 45%;
+  }
   footer .image p {
     font-size: 0.75rem;
   }
