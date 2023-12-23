@@ -50,13 +50,13 @@
 
 .banner p {
   display: block;
-  padding:12px;
+  padding: 12px;
   font-size: 1.25rem;
   font-weight: 400;
   margin: 1rem 0 1.5rem;
   text-align: justify;
   line-height: 1.2em;
-  
+
   /* letter-spacing: 0.5px; */
 }
 
@@ -70,5 +70,42 @@
   background-color: transparent;
   border-image: linear-gradient(var(--blue), var(--blue-dark));
   border-image-slice: 10;
-  border-radius: 30px;
+  /* border-radius: 30px; */
+}
+.banner .banner-content button:hover{
+  color:var(--white) !important;
+  transition: 0.5s ease-in-out;
+
+}
+.btns {
+  display: inline-block;
+  padding: 1rem 2rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+.btns::before {
+  content: "";
+  position: absolute;
+  /* top: 0%;
+  left: 0%; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  height: 100%;
+  background: var(--blue-dark);
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+
+}
+.btn9::before {
+  width: 0;
+  height: 110%;
+
+}
+.btn9:hover::before {
+  width: 100%;
+
 }
