@@ -42,11 +42,35 @@
   font-size: 2.5rem;
   font-weight: 900;
   color: transparent;
-  background: -webkit-linear-gradient(var(--blue), var(--blue-dark));
+  /* background: -webkit-linear-gradient(var(--blue), var(--blue-dark)); */
+  background: linear-gradient(
+    to right,
+    #fff 20%,
+    #65c7f7 40%,
+    #0052d4 60%,
+    #fff 80%
+  );
+  
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   text-transform: uppercase;
+  background-size: 200% auto;
+  animation: animate 7s linear infinite;
 }
+@keyframes animate {
+  0% {
+    background-position: 0 center;
+  }
+  50% {
+    background-position: 400% center;
+  }
+  100% {
+    background-position: 0 center;
+  }
+}
+
+
 
 .banner p {
   display: block;
